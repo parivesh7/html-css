@@ -262,20 +262,34 @@ h2::before {
 .related-post {
   display: flex;
   align-items: center;
-  gap:15px;
+  gap: 15px;
   margin-bottom: 30px;
 }
 
-.related-author{
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: italic;
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
-.related-link:link{
-    font-weight: bold;
-    font-size: 17px;
-    font-style: normal;
-    display: block;
-    margin-bottom: 5px;
+.related-link:link {
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1;
+}
+
+aside {
+  flex: 0 0 300px;
 }
